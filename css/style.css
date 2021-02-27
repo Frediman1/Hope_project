@@ -1,0 +1,528 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  /* width: 100%; */
+}
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* background: url('../assets/img/air-pollution-website-min.jpg') center no-repeat; */
+  /* background: url('../assets/img/2585.png') no-repeat; */
+  background-size: cover;
+  line-height: 1.6;
+  /* background-color: rgba(0, 151, 211, 0.137); */
+}
+body, html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Logo-section{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  /* margin-top: 4rem; */
+    display:flex;
+    justify-content: center;
+    width:100%;
+    color:rgb(20, 20, 20);
+}
+.header .logo {
+  margin:0;
+  font-size: 5em;
+  padding: 10px 15px;
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Bungee Outline', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  letter-spacing: 10px;
+  color: rgb(0, 0, 0);
+  /* text-shadow: 4px 3px 0px #6981ac, 9px 8px 0px rgba(0,0,0,0.15); */
+  text-shadow: 0 3px #6981ac;
+}
+/* Horizontal Dotted-Lines */
+.hr-right, .hr-left{
+  border:none;
+  border-top: 9px dotted #005D90;
+  color:rgb(10, 10, 10);
+  width:50%;
+  /* display:flex; */
+}
+.hr-right{
+  margin-top: 2rem;
+  float:right;
+}
+.hr-left{
+    float:left;
+}
+
+/* WHAT IT IS AIR POLLUTION SECTION */
+.first-section {
+  margin-top: 20px;
+  display: flex;
+  /* width: 99%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-section img {
+  margin-top: 50px;
+  width: 2500px;
+  height: 560px;
+}
+
+.healthyAir h2 {
+  padding-top: 40px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 40px;
+  text-align: center;
+}
+
+.healthyAir p {
+  width: 85%;
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FLEXBOX SECTION */
+
+/* .flexbox-header {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'JetBrains Mono', monospace;
+} */
+
+#mission-header .para {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.50rem;
+  text-align: center;
+  background-color: #2d4580ee;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  padding-bottom: 20px;
+  width: 960px;
+  border-radius: 30px 10px;
+  box-shadow: 10px 10px #2d4580be,
+  15px 15px #2d4580bd,
+  20px 20px #2d458086;
+  /* 20px 20px #005e9050; */
+
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 20px; */
+  /* margin-right: 18px; */
+  margin-top:50px;
+  margin-bottom: 30px;
+}
+
+.flexbox-container a {
+  text-decoration: underline;
+  font-size: 17px;
+  color: rgb(238, 41, 27);
+}
+
+.flexbox-item {
+  width: 150px;
+  margin: 10px;
+  box-shadow: 1px 3px 2px 1px rgb(93, 121, 180);
+  background-color: #dfdfdf;
+}
+
+.flexbox-item img {
+  width: 100%;
+  height: 350px;
+}
+
+.flexbox-item h2 {
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: rgba(6, 61, 128, 0.947);
+}
+
+.flexbox-item p {
+  text-align: center;
+  margin-left: 22px;
+  width: 90%;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  flex-grow: 1;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+  flex-grow: 1;
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+  flex-grow: 1;
+}
+
+/* slide show  */
+.animal-api{
+  display: flex;
+}
+
+.slider {
+  width: 50%;
+  height: 500px;
+  margin-top: 50px;
+  /* margin: 0 auto; */
+  position: relative;
+}
+
+.slider ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slider ul li {
+  width: 100%;
+  /* height: 400px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-iteration-count: infinite;
+  animation-duration: 24s;
+}
+
+.slider img {
+  width: 80%;
+  height: 430px;
+}
+
+.slider ul li:nth-child(1) {
+  animation-name: slider;
+  animation-delay: -3s;
+}
+
+.slider ul li:nth-child(2) {
+  animation-name: slider;
+  animation-delay: 5s;
+  opacity: 0;
+}
+
+.slider ul li:nth-child(3) {
+  animation-name: slider;
+  animation-delay: 13s;
+  opacity: 0;
+}
+.slider ul li:nth-child(4) {
+  animation-name: slider;
+  animation-delay: 21s;
+  opacity: 0;
+}
+
+.slider ul li:nth-child(5) {
+  animation-name: slider;
+  animation-delay: 29s;
+  opacity: 0;
+}
+
+.slider ul li:nth-child(6) {
+  animation-name: slider;
+  animation-delay: 35s;
+  opacity: 0;
+}
+
+.slider ul li:nth-child(7) {
+  animation-name: slider;
+  animation-delay: 42s;
+  opacity: 0;
+}
+
+.slider ul li:nth-child(8) {
+  animation-name: slider;
+  animation-delay: 48s;
+  opacity: 0;
+}
+
+.slider ul li:nth-child(9) {
+  animation-name: slider;
+  animation-delay: 54s;
+  opacity: 0;
+}
+
+.slider ul li:nth-child(10) {
+  animation-name: slider;
+  animation-delay: 60s;
+  opacity: 0;
+}
+
+@keyframes slider {
+  0% {
+      opacity: 0;
+  }
+  20.83% {
+      opacity: 1;
+  }
+  33.33% {
+      opacity: 1;
+  }
+  45.83% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+/* Search animal section */
+.container {
+  width: 50%;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  color:white;
+  /* height: 900px; */
+}
+.container .row {
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 20px; */
+  background-color: rgb(93, 121, 180);
+  width: 80%;
+  border-radius: 60px 20px;
+  box-shadow: 0 10px 30px rgba(58, 85, 143, 0.918);
+}
+.container .animls-name{
+  padding-top: 20px;
+  font-size: 45px;
+}
+.container input {
+  width: 50%;
+  align-items: center;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  color: #202020;
+  border-radius: 16px 0 16px 0;
+  border-bottom: 3px solid rgb(158, 158, 158);
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.card .filter-description {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* API SECTION */
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.363)), url('https://img.jakpost.net/c/2017/06/29/2017_06_29_29297_1498704001._large.jpg');
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  min-height: 100vh;
+  /* border-radius: 25px; */
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); */
+}
+
+.app-wrap header {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Bungee Outline', cursive;
+}
+
+.app-wrap header h2 {
+  font-size: 4em;
+  color: white;
+  text-shadow: 0 3px #4c6085;
+}
+
+.app-wrap header input {
+  width: 100%;
+  align-items: center;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  color: #202020;
+  border-radius: 16px 0 16px 0;
+  border-bottom: 3px solid rgb(158, 158, 158);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+header input :focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location .city {
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: white;
+  font: size 16px;
+}
+
+.coordinates {
+  /* margin: 10px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.coordinates .lat {
+  color: white;
+  font-size: 45px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: normal;
+  /* margin: 30px 0px; */
+  /* text-shadow: 2px 8px rgba(0, 0, 0, 0.6); */
+}
+
+.coordinates .lon {
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: 'JetBrains Mono', monospace;
+  /* margin: 30px 0px; */
+  /* text-shadow: 2px 8px rgba(0, 0, 0, 0.6); */
+}
+
+#lat-value {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  color: white
+}
+
+#lon-value {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  color: white
+}
+
+/* new css update */
+
+.air-quality {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  /* background-color: DodgerBlue; */
+}
+
+.format-airQuality {
+  /* text-align: center; */
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
+}
+
+.airQuality-results {
+  font-size: 19px;
+  text-align: center;
+}
+
+.weather {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  font-weight: 900;
+  /* margin: 10px 0px; */
+  text-shadow: 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Slider pictures */
+
+img {
+  display: block;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.wrapper-slider {
+  overflow: hidden;
+  height: 40vh;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 3ƒƒ0px;
+  /* // border-top: dotted white 8px; */
+}
+
+.lil-nav {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  grid-row-start: 2;
+}
+
+.lil-nav a {
+  display: flex;
+  min-width: 45vw;
+  margin-right: 10px;
+}
+
+.lil-nav__img {
+  object-fit: cover;
+  filter: saturate(0);
+  transition: 0.3s ease all;
+}
+
+.lil-nav__img:hover {
+  transform: scale(1.05);
+  filter: saturate(1);
+}
+
+/* Footer */
+#footer {
+  height: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: #423f3f;
+  /* text-shadow: 0 1px rgb(255, 254, 254); */
+  font-family: 'Caveat';
+  font-size: 1.50rem;
+  text-align: center;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+#footer a{
+  text-decoration: none;
+  color: #292525;
+  /* text-shadow: 0 1px rgb(255, 254, 254); */
+  /* margin-bottom: 1rem; */
+}
+
+
+

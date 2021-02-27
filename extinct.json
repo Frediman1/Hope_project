@@ -1,0 +1,74 @@
+{
+  "extinct": [
+    {
+      "name": "Paradise Parrot",
+      "id": 1,
+      "year": "It extinct in 1928",
+      "category": "Bird",
+      "description": "colourful medium-sized parrot native to the grassy woodlands of the Queensland – New South Wales border area of eastern Australia. Once moderately common within its fairly restricted range, the last live bird was seen in 1927."
+    },
+    {
+      "name": "Sicilian Wolf",
+      "id": 2,
+      "year": "It extinct in 1938",
+      "category": "Mammal",
+      "description":"The Sicilian wolf is an extinct subspecies of the gray wolf that was once endemic to Sicily. It was paler than the mainland Italian wolf and comparable in size to the extant Arabian wolf and extinct Japanese wolf."
+    },
+    {
+      "name": "Tasmanian Tiger",
+      "id": 3,
+      "year": "It extinct in 1936",
+      "category": "Mammal",
+      "description":"The thylacine is an extinct carnivorous marsupial that was native to the island state of Tasmania, New Guinea, and the Australian mainland. It was one of the largest known carnivorous marsupials, evolving about 2 million years ago. "
+    },
+    {
+      "name": "Xerces Blue Butterfly",
+      "id": 4,
+      "year": "It extinct in 1940",
+      "category": "insecta",
+      "description":"The Xerces blue is an extinct species of butterfly in the gossamer-winged butterfly family, Lycaenidae. The species lived in coastal sand dunes of the Sunset District of San Francisco peninsula."
+    },
+    {
+      "name": "Japanese Sea Lion",
+      "id": 5,
+      "year": "It extinct in 1950",
+      "category": "Mammal",
+      "description":"The Japanese sea lion was an aquatic mammal thought to have become extinct in the 1970s. It was considered to be a subspecies of California sea lion until 2003. They inhabited the Sea of Japan, especially around the coastal areas of the Japanese Archipelago and the Korean Peninsula."
+    },
+    {
+      "name": "Crescent nail-tail wallaby",
+      "id": 6,
+      "year": "It extinct in 1950",
+      "category": "Mammal",
+      "description":"The crescent nail-tail wallaby, also known as the worong, is a small species of marsupial that grazed on grasses in the scrub and woodlands of southwestern and central Australia."
+    },
+    {
+      "name": "Bubal hartebeest",
+      "id": 7,
+      "year": "It extinct in 1950",
+      "category": "Mammal",
+      "description":"The bubal hartebeest, also known as northern hartebeest or bubal antelope or simply bubal is the extinct nominal subspecies of hartebeest. It was formerly found north of the Saharan Desert."
+    },
+    {
+      "name": "Golden Toad",
+      "id": 8,
+      "year": "It extinct in 1963",
+      "category": "Insecta",
+      "description":"The golden toad is an extinct species of true toad that was once abundant in a small, high-altitude region of about 4 square kilometres in an area north of the city of Monteverde, Costa Rica. It was endemic to elfin cloud forest."
+    },
+    {
+      "name": "Kākāwahie",
+      "id": 9,
+      "year": "It extinct in 1963",
+      "category": "Bird",
+      "description":"The kākāwahie or Molokaʻi creeper was a species of Hawaiian honeycreeper. It is extinct, but was found on the Hawaiian island of Molokaʻi in Hawaii."
+    },
+    {
+      "name": "Guam Flying Fox",
+      "id": 10,
+      "year": "It extinct in 1968",
+      "category": "Mammal",
+      "description":"The Guam flying fox, also known as the little Marianas fruit bat, was a tiny megabat from Guam in the Marianas Islands in Micronesia that was confirmed extinct due to hunting or habitat changes. It was first recorded in 1931 and was observed roosting with the larger and much more common Mariana fruit bat."
+    }
+  ]
+}
